@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "created": "2026-09-30T09:55:54.911066",
+    "updated": "2026-09-30T09:55:54.911407",
+    "total_cables": 10,
+    "version": "1.0"
+  },
+  "cables": {
+    "63076846AA": {
+      "cable_reference": "63076846AA",
+      "revision_letter": "B",
+      "created_by": "NATHALIE",
+      "created_date": "2026-02-05",
+      "modified_date": "2026-06-10",
+      "modified_by": "ségolène",
+      "first_validation_date": "2026-06-04",
+      "first_validator": "Heïdi",
+      "modification_reason": "changement de calibre",
+      "second_validation_date": null,
+      "second_validator": null,
+      "full_instructions": "2ème Validation le : | Par :\nVOIR POUR LES PREMIERS AVEC NATH\nATTENTION le calibre a été refait a neuf (blanc) | Trait rouge coupe du semi rigide\nGOUPILLE\nPrendre le câble semi rigide 91624771\nPenser à enlever la goupille (rond blanc) pour courber le câble\nFaire le cambrage du câble semi-rigide sur le calibre 69841590AA-02 en commencant par le côté qui est droit et en laissant dépasser du câble de chaque côté\nRemettre la goupille pour appuyer la lame\nCouper le surplus de câble (trait rouge) au ras avec une lame de rasoir ou un scalpel ou faire une entaille et finir la coupe à la pince coupante\nATTENTION NE PAS SE FIER AUX COTES DE DENUDAGE DU PLAN\nSur machine à dénuder COAXSTRIP 5200 faire le dénudage côté pont\n1er dénudage \"1_RX PONT 1er\"\nCôte 3,2mm - retrait 0\n2em dénudage \"1_RX PONT 2em\"\nCôte 2,7mm - retrait 4\nLe diéléctrique ne devra faire que 0,5mm\nl'âme sera recoupé aux cartes\nPositionner le câble sur la carte bien dans l'angle \nAttention de bien le centré dans le chemin et verifier le dénudage le blindage doit être à ras de la piste | REPRENDRE PHOTO\nLe blindage peut être légèrement en retrait de la piste\nREPRENDRE PHOTO\nSur machine à dénuder COAXSTRIP 5200 faire le dénudage côté droit\n1er dénudage \"2_RX DROIT 1er\"\nCôte 3,4mm - retrait 0\nVérifier sur la carte (voir photo côté droit, un leger retrait est accepté) Ajuster si besoin\n2em dénudage \"2_RX DROIT 2em\"\nCôte 2,9mm - retrait 5\nVérifier sur la carte (voir photo côté droit, un leger retrait est accepté) Ajuster si besoin\nLe diéléctrique ne devra faire que 0,5mm\nL'âme sera recoupé aux cartes",
+      "special_notes": [
+        "ATTENTION le calibre a été refait a neuf (blanc) | Trait rouge coupe du semi rigide",
+        "ATTENTION NE PAS SE FIER AUX COTES DE DENUDAGE DU PLAN",
+        "Positionner le câble sur la carte bien dans l'angle \nAttention de bien le centré dans le chemin et verifier le dénudage le blindage doit être à ras de la piste | REPRENDRE PHOTO"
+      ],
+      "component_references": [
+        "91624771"
+      ],
+      "sheet_name": "63076846AA",
+      "extracted_at": "2026-09-30T09:55:54.911124"
+    },
+    "65478610AB": {
+      "cable_reference": "65478610AB",
+      "revision_letter": "A",
+      "created_by": null,
+      "created_date": null,
+      "modified_date": null,
+      "modified_by": null,
+      "first_validation_date": "2025-03-05",
+      "first_validator": "Heïdi",
+      "modification_reason": null,
+      "second_validation_date": null,
+      "second_validator": null,
+      "full_instructions": "2ème Validation le : | 46035 | Par : | Tony\nLa longueur du câble fini risque d'être à 535 mm\nAPPAIRAGE !!\nMatrice rouge\nSoudure pour le contact !! | Monobrin\nEmpreinte A pour la ferrule",
+      "special_notes": [],
+      "component_references": [],
+      "sheet_name": "65478610AB",
+      "extracted_at": "2026-09-30T09:55:54.911158"
+    },
+    "68935000BA": {
+      "cable_reference": "68935000BA",
+      "revision_letter": "C",
+      "created_by": "Heïdi",
+      "created_date": "2025-01-14",
+      "modified_date": "2025-02-22",
+      "modified_by": "Maria",
+      "first_validation_date": null,
+      "first_validator": null,
+      "modification_reason": "P1-P2 1410mm -> 1430\nP1-P3 500mm ->510mm\nP1-P4 500mm ->510mm",
+      "second_validation_date": null,
+      "second_validator": null,
+      "full_instructions": "2ème Validation le : | Par :\nModif le : | 46072 | par : | NATH | Modif le : | 46197 | par : | Ségo\nMotif de la modif : | Passage de l'indice -B à -C (pose de manchon transparent) | Longueur de coupe : | Motif de la modif : | ajout n° pince, photos avec étapes\nP1-P2 : 1500mm\nP1-P3 : 510mm\nP1-P4 : 510mm\nrajuster la longueur | P2\nP2 | Dénudage du câble ext. : 80mm\nFaire arriver la cosse rep 3 au niv du P2\nRep 5 : Dénudage 10mm\nDénudage câble : 120mm | Rep 5 : Pince 67666959AA (D14)\nsortir les deux câbles de la tresse sans la défaire\nAttention, les dimensions sur le plan son sont au plus bas ( 0 + 30mm pour P3 et P4 / 0 + 50mm pour P2) | Rep 3 : Dénudage 10mm | mettre la gaine noir sur la tresse\nDénudage fils : 12mm | Rep 3 : Pince KAA0760 (E11) | sertir la tresse dans la cosse jaune\nBien enfiler les isolants noir sur chaque câble avant de sertir les contacts | gaine 60mm | rétreindre les manchons marqués à 40mm du connecteur vert\nPince I6 230688005, serrage 4 ( Contact N°8 ) | P3 | Faire une épissure avec du cable du KZ-05-09 ( Diamètre du fils d'origine trop gros )\n( Fils de 2,5mm2 chacun 7,5mm2 --> AWG 8 ) | ATTENTION AU RETREINS DU MANCHON 3 VOIES (VOIR PHOTO) | Dénudage ext. : a 415mm et couper câble 1 à 30mm et câble 2 à 35mm\nDénudage Contacts : 5,5mm\nPasser le raccord arrière | Pince : M22520/1-01 (I9), serrage 6 (AWG 16)\nKZ-05-09 à couper pour le :  câble 2 à 25mm et câble 1 à 30mm\nDénudage : 5,5mm\nCouper câble jaune/vert au ras (non relié) | F1/F1A | Rep 11 : 120mm | Rep 12 : 30mm X2\nDénudage rep 10 : 8mm | Rep 11 : 120mm\nPince : KAA0760 (E11)\nP4 | Dénudage câble ext. : 50mm\nPince : (I6)  230688005, serrage 1\nDénudage : 12mm\nCouper les isolants de moitié\nATTENTION bien enfiler les isolants noir sur chaque câble avant de sertir les contacts\nF1\ndénuder de 120mm | repérer le câble 1 | passer les gaines | sertir les cosses | inserer le fusible a l'interieur\ncouper au milieu | fermer avec les encoches\nle tirer de chaque côté | inserer les cosses de chaque côté",
+      "special_notes": [
+        "Attention, les dimensions sur le plan son sont au plus bas ( 0 + 30mm pour P3 et P4 / 0 + 50mm pour P2) | Rep 3 : Dénudage 10mm | mettre la gaine noir sur la tresse",
+        "( Fils de 2,5mm2 chacun 7,5mm2 --> AWG 8 ) | ATTENTION AU RETREINS DU MANCHON 3 VOIES (VOIR PHOTO) | Dénudage ext. : a 415mm et couper câble 1 à 30mm et câble 2 à 35mm",
+        "ATTENTION bien enfiler les isolants noir sur chaque câble avant de sertir les contacts"
+      ],
+      "component_references": [
+        "230688005"
+      ],
+      "sheet_name": "68935000BA",
+      "extracted_at": "2026-09-30T09:55:54.911180"
+    },
+    "61226725AA": {
+      "cable_reference": "61226725AA",
+      "revision_letter": "A",
+      "created_by": "Tony",
+      "created_date": "2025-07-18",
+      "modified_date": null,
+      "modified_by": null,
+      "first_validation_date": null,
+      "first_validator": null,
+      "modification_reason": null,
+      "second_validation_date": null,
+      "second_validator": null,
+      "full_instructions": "2ème Validation le : | Par :\nREP 2 | 45351183 | REP 3 | 45351184\nGaine noir Rep 10 de 25mm\nGaine Transp Rep 6 et 4 de 30mm et prendre Gaine de Ref : 99002561\nGaine transp Rep 8 de 25mm",
+      "special_notes": [],
+      "component_references": [
+        "45351184",
+        "99002561",
+        "45351183"
+      ],
+      "sheet_name": "61226725AA",
+      "extracted_at": "2026-09-30T09:55:54.911214"
+    },
+    "45351183": {
+      "cable_reference": null,
+      "revision_letter": null,
+      "created_by": null,
+      "created_date": null,
+      "modified_date": null,
+      "modified_by": null,
+      "first_validation_date": null,
+      "first_validator": null,
+      "modification_reason": null,
+      "second_validation_date": null,
+      "second_validator": null,
+      "full_instructions": "",
+      "special_notes": [],
+      "component_references": [],
+      "sheet_name": "45351183",
+      "extracted_at": "2026-09-30T09:55:54.911238"
+    },
+    "45351184": {
+      "cable_reference": null,
+      "revision_letter": null,
+      "created_by": null,
+      "created_date": null,
+      "modified_date": null,
+      "modified_by": null,
+      "first_validation_date": null,
+      "first_validator": null,
+      "modification_reason": null,
+      "second_validation_date": null,
+      "second_validator": null,
+      "full_instructions": "Voir procédé de fraisage en annexe 1",
+      "special_notes": [],
+      "component_references": [],
+      "sheet_name": "45351184",
+      "extracted_at": "2026-09-30T09:55:54.911254"
+    },
+    "67225776AA": {
+      "cable_reference": "67225776AA",
+      "revision_letter": "A",
+      "created_by": "Bernard Heïdi",
+      "created_date": null,
+      "modified_date": "2026-08-22",
+      "modified_by": "Nathalie",
+      "first_validation_date": "TONY",
+      "first_validator": "46051",
+      "modification_reason": "Revoir longueur de coupe suite modif en cours",
+      "second_validation_date": null,
+      "second_validator": null,
+      "full_instructions": "2ème Validation le : | Par :\nlg 210 mm Revoir la longueur de coupe\nMODIF EN COURS LONGUEUR FINAL 19CM | Fischer_Connectors_Cable_Assembly_Instructions_UltiMate_Series_Size_715.pdf (fischerconnectors.com)\nVu côté PIN\ngaine transparente 22mm + 30mm + 22mm | le point blanc sur le connecteur Fiher est côté marquage\nne pas utiliser la bague founie avec le manchon Fisher\ncouper le manchon Fiher au 2éme niveau | pas de contrefiche pour le serrage de la bague arrière du\nconnecteur Fisher\nMettre de la colle S1125 au niveau du manchon Raychem\net du raccord Fisher",
+      "special_notes": [],
+      "component_references": [],
+      "sheet_name": "67225776AA",
+      "extracted_at": "2026-09-30T09:55:54.911270"
+    },
+    "65221558AA - 65221562": {
+      "cable_reference": "65221558AA - 65221562",
+      "revision_letter": "C",
+      "created_by": null,
+      "created_date": null,
+      "modified_date": "2024-03-01",
+      "modified_by": "Heïdi",
+      "first_validation_date": "2025-02-20",
+      "first_validator": null,
+      "modification_reason": "dénudage J11 - Lg de coupe J11X",
+      "second_validation_date": null,
+      "second_validator": null,
+      "full_instructions": "2e Validation le : | Modif le : | 46072 | par : | Ségolène\nMotif de la modif : | supression photos et ajout 2ème dénudage\nModif le : | 46168 | par : | Heïdi\nMotif de la modif : | (A confirmer pour chaque fournisseur)\nMais NOK 230mm pour deutsh à minima\n230mm à 235mm\nLongueur de coupe : 240mm ? ( a confirmer )\nATTENTION!!\nil peut y avoir une même réf. de contact avec deux founisseurs différents et donc deux dénudage différents\nCONTACTS AMPHENOL\n21-33122-546\nPince pour contact M22520/2-01\ntourelle K323\nserrage 4\nPince pour ferrule M22520/31-01\ntourelle 31/02\nNE PAS SERTIR LA FERRULE\nFAIRE LE PRE-APPAIRAGE\nCONTACTS DEUTSCH\n6162-233-1277\nOK\nPince pour contact M22520/2-01\ntourelle K323\nserrage 4\nPince pour ferrule M22520/31-01 | Localisation à ce jour : I10\ntourelle 31/02\nRetrousser la tresse\nNE PAS SERTIR LA FERRULE\nFAIRE LE PRE-APPAIRAGE\nFaire idéalement le côté SMP en premier\nR222.152.000\nne pas hésiter à mettre un peu de flux pour faciliter l'écoulement de l'étain lors du brasage de l'âme\nAttendre d'avoir fait l'appairage pour mettre le capuchon sur les connecteurs SMP\nSe positionner sur le calibre de test lors du brasage pour éviter que le contact bouge en chauffant\nPour contact Non Connecté\nPince M22520/1-01 avec matrice 1-04\nAWG 12\nserrage 8\ndénudage 6 mm",
+      "special_notes": [
+        "ATTENTION!!"
+      ],
+      "component_references": [],
+      "sheet_name": "65221558AA - 65221562",
+      "extracted_at": "2026-09-30T09:55:54.911283"
+    },
+    "5669133A": {
+      "cable_reference": "5669133A",
+      "revision_letter": "F",
+      "created_by": "Ségolène",
+      "created_date": "2026-04-28",
+      "modified_date": null,
+      "modified_by": null,
+      "first_validation_date": null,
+      "first_validator": null,
+      "modification_reason": null,
+      "second_validation_date": null,
+      "second_validator": null,
+      "full_instructions": "2ème Validation le : | Par :\nGaine transparente  a remplacer réf 99002561 par réf 99002562\nBien recouvrir le connecteur avec la gaine ATUM pour maintien mécanique\nsi besoin, voir photo ségo ou nath\ngaine ATUM 40mm | gaine transparente 40mm\nATTENTION\nles connecteurs réf 45351183 peuvent être défectueux au niveau du joint\nLes côtes sur le plan indique 1870 longueur fini et le 065 indique 1870 en longueur de coupe donc\nil faut couper a 1890 pour une longueur fini de 1870 (vue avec Christophe Tricoire)\nétiquette de n° de lot, a mettre au milieu\nFraisage\nBien vérifier avec Patrice Joyez le centrage\nNe pas usiner le chanfrein du connecteur\nAttention que l'âme ne soit pas touchée",
+      "special_notes": [
+        "ATTENTION",
+        "Attention que l'âme ne soit pas touchée"
+      ],
+      "component_references": [
+        "99002562",
+        "99002561",
+        "45351183"
+      ],
+      "sheet_name": "5669133A",
+      "extracted_at": "2026-09-30T09:55:54.911315"
+    },
+    "63476500BA": {
+      "cable_reference": "63476500BA",
+      "revision_letter": "-",
+      "created_by": null,
+      "created_date": null,
+      "modified_date": null,
+      "modified_by": null,
+      "first_validation_date": null,
+      "first_validator": null,
+      "modification_reason": null,
+      "second_validation_date": null,
+      "second_validator": null,
+      "full_instructions": "2ème Validation le : | Par :\ncalibre pour préformage réf 63376333AC\naprès le préformage bien couper le coaxial au ras du calibre avec la pince coupante 575E (ATTENTION) : la tenir bien droite sinon ça coupe en bisot et ça écrase\nselon préférence, on peut aussi couper en 2 étapes avec d'abord la lame du rasoir puis une pince type 45-716\nplus besoin de rester en butée lors du façonnage de la connexion grâce au nouveau calibre\nredressement : en dernière étape\nDénudage\ntotal | diélectrique | âme | total | diélectrique | âme\n2,9mm | 0,6mm | 2,3mm | 2,9mm | 0,6mm | 2,3mm\nATTENTION : machine COAX STRIP 5200\naucune photo n'est bonne ne pas s'y référer\nsi nécessaire redresser le câble\ntest carte\nATTENTION : ne pas toucher l'angle avec le câble\ncâble doit arriver dans les plages définies\nvoir pour mettre photo de la carte test avec zoom",
+      "special_notes": [
+        "après le préformage bien couper le coaxial au ras du calibre avec la pince coupante 575E (ATTENTION) : la tenir bien droite sinon ça coupe en bisot et ça écrase",
+        "ATTENTION : machine COAX STRIP 5200",
+        "ATTENTION : ne pas toucher l'angle avec le câble"
+      ],
+      "component_references": [],
+      "sheet_name": "63476500BA",
+      "extracted_at": "2026-09-30T09:55:54.911358"
+    }
+  }
+}
