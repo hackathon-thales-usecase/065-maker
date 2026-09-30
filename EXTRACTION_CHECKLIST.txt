@@ -1,0 +1,174 @@
+================================================================================
+THALES065MAKER - DATA EXTRACTION CHECKLIST
+================================================================================
+
+METADATA FIELDS (from Header Rows 1-4)
+================================================================================
+
+Per Cable Sheet:
+
+[✓] 1. CABLE_REFERENCE_NUMBER
+    └─ Location: Row 1, Column F
+    └─ Type: String (unique identifier)
+    └─ Example: "63076846AA"
+    └─ Required: YES
+
+[✓] 2. REVISION_LETTER
+    └─ Location: Row 1, Column G
+    └─ Type: String (single letter)
+    └─ Example: "B"
+    └─ Required: YES
+
+[✓] 3. CREATED_BY
+    └─ Location: Row 2, Column B
+    └─ Type: String (person name)
+    └─ Example: "NATHALIE"
+    └─ Required: NO
+
+[✓] 4. CREATED_DATE
+    └─ Location: Row 2, Column D
+    └─ Type: Date (Excel serial format)
+    └─ Example: 46057
+    └─ Required: NO
+    └─ Note: Convert from Excel date format
+
+[✓] 5. MODIFIED_DATE
+    └─ Location: Row 2, Column F
+    └─ Type: Date (Excel serial format)
+    └─ Example: 46182
+    └─ Required: NO
+    └─ Note: Convert from Excel date format
+
+[✓] 6. MODIFIED_BY
+    └─ Location: Row 2, Column H
+    └─ Type: String (person name)
+    └─ Example: "ségolène"
+    └─ Required: NO
+
+[✓] 7. FIRST_VALIDATION_DATE
+    └─ Location: Row 3, Column B
+    └─ Type: Date (Excel serial format)
+    └─ Example: 46176
+    └─ Required: NO
+    └─ Note: Convert from Excel date format
+
+[✓] 8. FIRST_VALIDATOR
+    └─ Location: Row 3, Column D
+    └─ Type: String (person name)
+    └─ Example: "Heïdi"
+    └─ Required: NO
+
+[✓] 9. MODIFICATION_REASON
+    └─ Location: Row 3, Column F
+    └─ Type: String (text description)
+    └─ Example: "changement de calibre"
+    └─ Required: NO
+
+[✓] 10. SECOND_VALIDATION_DATE
+    └─ Location: Row 4, Column B
+    └─ Type: Date (Excel serial format)
+    └─ Required: NO
+
+[✓] 11. SECOND_VALIDATOR
+    └─ Location: Row 4, Column D
+    └─ Type: String (person name)
+    └─ Required: NO
+
+
+CONTENT FIELDS (from Rows 5+)
+================================================================================
+
+[✓] 12. FULL_INSTRUCTIONS
+    └─ Location: All rows from Row 5 onwards
+    └─ Type: Multi-line text content
+    └─ Required: YES
+    └─ Content includes:
+        ├─ Step-by-step assembly instructions
+        ├─ Technical specifications
+        ├─ Dimensions and measurements
+        ├─ Material specifications
+        ├─ Tool requirements
+        ├─ Quality control notes
+        ├─ Special warnings and precautions
+        └─ Cross-references to components
+
+[✓] 13. SPECIAL_NOTES (Extracted)
+    └─ Source: FULL_INSTRUCTIONS
+    └─ Type: Text (filtered)
+    └─ Required: NO
+    └─ Indicators: Lines starting with:
+        ├─ "ATTENTION"
+        ├─ "REPRENDRE"
+        ├─ "VOIR"
+        └─ Other warning keywords
+
+[✓] 14. COMPONENT_REFERENCES (Extracted)
+    └─ Source: FULL_INSTRUCTIONS
+    └─ Type: List of reference numbers
+    └─ Required: NO
+    └─ Pattern: Numbers like "91624771", "45351183", etc.
+
+
+CABLE TYPES TO PROCESS (14 total)
+================================================================================
+
+[ ] 1. 63076846AA - CABLE RX VHF W1
+[ ] 2. 65478610AB - LOT DE 6 CABLES W1XX
+[ ] 3. SMA 01
+[ ] 4. R1
+[ ] 5. 68935000BA - W2402E
+[ ] 6. 61226725AA - Lot de câble de sortie
+[ ] 7. 45351183
+[ ] 8. 45351184
+[ ] 9. 67225776AA
+[ ] 10. 65221558AA - 65221562 - AEA
+[ ] 11. 21-33122-546
+[ ] 12. 6162-233-1277
+[ ] 13. 5669133A - Lot de cordon 20160
+[ ] 14. 63476500BA - CABLE IO
+
+
+PROCESSING WORKFLOW
+================================================================================
+
+Step 1: INGEST
+  └─ Read dossier_cables.xlsx
+  └─ Extract all 14 sheets
+  └─ Parse metadata and content for each cable
+
+Step 2: NORMALIZE
+  └─ Convert Excel dates to standard format
+  └─ Clean and validate text content
+  └─ Extract special notes and component references
+
+Step 3: STORE
+  └─ Build database with normalized data
+  └─ Create reusable data structure
+  └─ Ensure data integrity
+
+Step 4: TEMPLATE
+  └─ Create 065 document template
+  └─ Map database fields to template placeholders
+  └─ Define output format (PDF, XML, etc.)
+
+Step 5: GENERATE
+  └─ Create 065 document for each cable
+  └─ Populate with extracted data
+  └─ Save to outputs directory
+
+
+DATA VALIDATION RULES
+================================================================================
+
+Metadata:
+  ✓ CABLE_REFERENCE_NUMBER must be non-empty
+  ✓ REVISION_LETTER must be single character
+  ✓ Dates must be valid Excel serial numbers
+  ✓ Names should contain only letters and spaces
+
+Content:
+  ✓ FULL_INSTRUCTIONS must be non-empty
+  ✓ Text should be in French or English
+  ✓ Component references should be numeric
+
+================================================================================
